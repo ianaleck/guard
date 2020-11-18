@@ -2,7 +2,6 @@
 
 Guard is an easy to use, highly customisable PHP validator.
 
-**Note: This package is under heavy development and is not recommended for production.**
 
 ## Installing
 
@@ -259,3 +258,5 @@ Please file issues under GitHub, or submit a pull request if you'd like to direc
 ### Running tests
 
 Tests are run with phpunit. Run `./vendor/bin/phpunit` to run tests.
+
+**Note: This package is under heavy development and is not recommended for production.**
