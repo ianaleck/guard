@@ -1,6 +1,6 @@
 # guard
 
-Guard is an easy to use, highly customisable PHP validator.
+Guard is an easy to use, highly customisable PHP validator
 
 **Note: This package is under heavy development and is not recommended for production.**
 
