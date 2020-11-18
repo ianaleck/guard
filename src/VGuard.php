@@ -2,6 +2,7 @@
 
 namespace VGuard;
 
+
 use Closure;
 
 use RecursiveArrayIterator;
