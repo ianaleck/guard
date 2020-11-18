@@ -1,11 +1,11 @@
 <?php
 
-namespace Guard\Support;
+namespace VGuard\Support;
 
 use RecursiveArrayIterator;
 use RecursiveIteratorIterator;
 
-use Guard\Contracts\MessageBagContract;
+use VGuard\Contracts\MessageBagContract;
 
 class MessageBag implements MessageBagContract
 {

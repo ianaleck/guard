@@ -1,16 +1,16 @@
 <?php
 
 /**
- * Violin example. Custom rule message.
+ * VGuard example. Custom rule message.
  * 
  * Defining an error message for when a particular rule fails.
  */
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $v->addRuleMessage('required', 'Hold up, the {field} field is required!');
 

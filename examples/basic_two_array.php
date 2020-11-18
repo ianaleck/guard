@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Violin example. Basic validation, two arrays.
+ * VGuard example. Basic validation, two arrays.
  * 
  * This shows basic validation using two arrays, one for data,
  * and one for the ruleset. This is useful if you'd like to
@@ -10,13 +10,13 @@
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $data = [
     'username'          => 'dale',
-    'email'             => 'dale@codecourse.com',
+    'email'             => 'dale@ianaleckm.com',
     'password'          => 'ilovecats',
     'password_confirm'  => 'ilovecats'
 ];

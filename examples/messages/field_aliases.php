@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Violin example. Field aliases.
+ * VGuard example. Field aliases.
  * 
  * Shows using field aliases to rename fields without having
  * to define custom rule or field messages, making it a
@@ -10,9 +10,9 @@
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $v->validate([
     'username|Username'  => ['', 'required'],

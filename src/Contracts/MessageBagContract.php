@@ -1,6 +1,6 @@
 <?php
 
-namespace Guard\Contracts;
+namespace VGuard\Contracts;
 
 interface MessageBagContract
 {

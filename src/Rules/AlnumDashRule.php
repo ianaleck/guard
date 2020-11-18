@@ -1,8 +1,8 @@
 <?php
 
-namespace Guard\Rules;
+namespace VGuard\Rules;
 
-use Guard\Contracts\RuleContract;
+use VGuard\Contracts\RuleContract;
 
 class AlnumDashRule implements RuleContract
 {

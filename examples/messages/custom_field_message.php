@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Violin example. Custom field message.
+ * VGuard example. Custom field message.
  * 
  * Defining an error message for a particular field, when a
  * particular rule fails.
@@ -9,9 +9,9 @@
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $v->addFieldMessage('username', 'required', 'We need a username to sign you up.');
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace Guard;
+namespace VGuard;
 
 use Closure;
 
 use RecursiveArrayIterator;
 use RecursiveIteratorIterator;
 
-use Guard\Support\MessageBag;
-use Guard\Contracts\ValidatorContract;
+use VGuard\Support\MessageBag;
+use VGuard\Contracts\ValidatorContract;
 
-class Guard implements ValidatorContract
+class VGuard implements ValidatorContract
 {
     /**
      * Rule objects that have already been instantiated.
@@ -368,7 +368,7 @@ class Guard implements ValidatorContract
             return [$this->usedRules[$rule], 'run'];
         }
 
-        $ruleClass = 'Guard\\Rules\\' . ucfirst($rule) . 'Rule';
+        $ruleClass = 'VGuard\\Rules\\' . ucfirst($rule) . 'Rule';
         $ruleObject = new $ruleClass();
 
         $this->usedRules[$rule] = $ruleObject;

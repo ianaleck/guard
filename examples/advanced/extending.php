@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Violin example. Extending.
+ * VGuard example. Extending.
  * 
- * You can extend the Violin class to create your own validator,
+ * You can extend the vGuard class to create your own validator,
  * making it easier to keep everything in one place, and more
  * importantly, the ability to pass dependencies into the
  * class.
@@ -14,11 +14,11 @@
 
 require '../../vendor/autoload.php';
 
-//-- Validator.php
+//-- VGuard.php
 
-use Violin\Violin;
+use VGaurd\VGaurd;
 
-class Validator extends Violin
+class Validator extends VGaurd
 {
     protected $db;
 

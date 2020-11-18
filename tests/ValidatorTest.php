@@ -1,6 +1,6 @@
 <?php
 
-use Guard\Guard;
+use VGuard\VGuard;
 
 class ValidatorTest extends PHPUnit_Framework_TestCase
 {
@@ -8,7 +8,7 @@ class ValidatorTest extends PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->v = new Guard;
+        $this->v = new VGuard;
     }
 
     public function testBasicValidValidation()

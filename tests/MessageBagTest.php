@@ -1,6 +1,6 @@
 <?php
 
-use Guard\Support\MessageBag;
+use VGuard\Support\MessageBag;
 
 class MessageBagTest extends PHPUnit_Framework_TestCase
 {

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Violin example. Basic validation.
+ * VGuard example. Basic validation.
  * 
  * This shows basic validation, passing in an array to the
  * validate method and checking if the validation passes
@@ -10,15 +10,15 @@
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $v->validate([
     'username'  => ['dale', 'required|alpha|min(3)|max(20)'],
-    'email'     => ['dale@codecourse.com', 'required|email'],
-    'password'  => ['ilovecats', 'required'],
-    'password_confirm' => ['ilovecats', 'required|matches(password)']
+    'email'     => ['dale@ianaleckm.com', 'required|email'],
+    'password'  => ['ilovemcu', 'required'],
+    'password_confirm' => ['ilovemcu', 'required|matches(password)']
 ]);
 
 if ($v->passes()) {

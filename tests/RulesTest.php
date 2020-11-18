@@ -1,25 +1,25 @@
 <?php
 
-use Guard\Rules\IpRule;
-use Guard\Rules\IntRule;
-use Guard\Rules\UrlRule;
-use Guard\Rules\MaxRule;
-use Guard\Rules\MinRule;
-use Guard\Rules\BoolRule;
-use Guard\Rules\DateRule;
-use Guard\Rules\RegexRule;
-use Guard\Rules\AlnumRule;
-use Guard\Rules\AlphaRule;
-use Guard\Rules\EmailRule;
-use Guard\Rules\ArrayRule;
-use Guard\Rules\NumberRule;
-use Guard\Rules\CheckedRule;
-use Guard\Rules\BetweenRule;
-use Guard\Rules\MatchesRule;
-use Guard\Rules\RequiredRule;
-use Guard\Rules\AlnumDashRule;
+use VGuard\Rules\IpRule;
+use VGuard\Rules\IntRule;
+use VGuard\Rules\UrlRule;
+use VGuard\Rules\MaxRule;
+use VGuard\Rules\MinRule;
+use VGuard\Rules\BoolRule;
+use VGuard\Rules\DateRule;
+use VGuard\Rules\RegexRule;
+use VGuard\Rules\AlnumRule;
+use VGuard\Rules\AlphaRule;
+use VGuard\Rules\EmailRule;
+use VGuard\Rules\ArrayRule;
+use VGuard\Rules\NumberRule;
+use VGuard\Rules\CheckedRule;
+use VGuard\Rules\BetweenRule;
+use VGuard\Rules\MatchesRule;
+use VGuard\Rules\RequiredRule;
+use VGuard\Rules\AlnumDashRule;
 
-use Guard\Support\MessageBag;
+use VGuard\Support\MessageBag;
 
 class RulesTest extends PHPUnit_Framework_TestCase
 {

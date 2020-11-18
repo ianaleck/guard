@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Violin example. Message placeholders.
+ * VGuard example. Message placeholders.
  * 
  * Shows the placeholders you can use when defining messages. You can
  * output the name of the field, the value given by the user, and
@@ -10,9 +10,9 @@
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $v->addRuleMessage('between', 'The {field} must be between {$0} and {$1}, you gave {value}');
 

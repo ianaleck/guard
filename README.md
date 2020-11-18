@@ -19,9 +19,9 @@ composer require ianaleck/guard
 ## Basic usage
 
 ```php
-use Guard\Guard;
+use VGuard\VGuard;
 
-$v = new Guard;
+$v = new VGuard;
 
 $v->validate([
     'name'  => ['john', 'required'],
@@ -108,7 +108,7 @@ $v->validate([
 You can extend the Guard class to add custom rules, rule messages and field messages. This way, you can keep a tidy class to handle custom validation if you have any dependencies, like a database connection or language files.
 
 ```php
-class MyValidator extends Guard
+class MyValidator extends VGuard
 {
     protected $db;
 

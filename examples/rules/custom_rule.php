@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Violin example. Custom rule.
+ * VGuard example. Custom rule.
  * 
  * Creating a custom rule using the addRule method, passing in a
  * closure which should return false if the check has failed,
@@ -10,9 +10,9 @@
 
 require '../vendor/autoload.php';
 
-use Violin\Violin;
+use VGuard\VGuard;
 
-$v = new Violin;
+$v = new VGuard;
 
 $v->addRuleMessage('startsWithNumber', 'The {field} must start with a number.');
 
