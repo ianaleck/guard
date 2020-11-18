@@ -1,0 +1,27 @@
+{
+	"name": "ianaleck/guard",
+	"type": "library",
+	"description":"Guard is an easy to use, highly customisable PHP validator.",
+	"keywords": ["validation","validate"],
+	"homepage": "https://github.com/ianaleck/guard",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ian Aleck",
+			"email": "ianaleckm@gmail.com",
+			"homepage": "https://github.com/ianaleck"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "2.1.*",
+		"phpunit/phpunit": "~4.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"Guard\\": "src/"
+		}
+	}
+}
